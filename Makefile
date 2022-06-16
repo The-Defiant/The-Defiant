@@ -6,3 +6,6 @@ test:
 
 develop:
 	poetry run uvicorn backend.App:app --reload
+
+build:
+	poetry build
